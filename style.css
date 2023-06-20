@@ -1,0 +1,120 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  background-color: #F8F8F8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #888888;
+  margin-bottom: 40px;
+}
+
+/* Header Styles */
+header {
+  background-color: #E6374D;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+header nav img {
+  height: 40px;
+}
+
+/* Hero Section Styles */
+#hero {
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+#hero h1 {
+  font-size: 36px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #FFBD2E;
+  color: #333333;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Featured Restaurants Section Styles */
+#featured-restaurants {
+  padding: 40px;
+}
+
+.restaurant-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.restaurant-card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.restaurant-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.restaurant-card p {
+  font-size: 16px;
+  color: #888888;
+}
+
+/* Trending Nearby Section Styles */
+#trending-nearby {
+  padding: 40px;
+}
+
+.trending-card {
+ 
